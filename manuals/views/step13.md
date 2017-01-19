@@ -368,10 +368,10 @@ Let's define the configuration:
  ┊58┊63┊    });
  ┊59┊64┊
 +┊  ┊65┊    this.paginationService.register({
-+┊  ┊66┊      id: this.paginationService.defaultId,
++┊  ┊66┊      id: this.paginationService.defaultId(),
 +┊  ┊67┊      itemsPerPage: 10,
 +┊  ┊68┊      currentPage: 1,
-+┊  ┊69┊      totalItems: 30,
++┊  ┊69┊      totalItems: 30
 +┊  ┊70┊    });
 +┊  ┊71┊
  ┊60┊72┊    this.pageSize.next(10);
